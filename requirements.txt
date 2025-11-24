@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+requests
+beautifulsoup4
+scipy
+ipywidgets
+notebook
+jupyter
+nltk
+textblob
