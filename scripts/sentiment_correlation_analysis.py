@@ -19,8 +19,8 @@ def merge_stocks(data_directory):
         'GOOGL': 'GOOG.csv',
         'META': 'META.csv',
         'MSFT': 'MSFT.csv',
-        'NVDA': 'NVDA.csv',
-        'TSLA': 'TSLA.csv'
+        'NVDA': 'NVDA.csv'
+        
     }
     
     stock_data = pd.DataFrame()
