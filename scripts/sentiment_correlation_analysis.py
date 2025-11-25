@@ -14,13 +14,13 @@ def load_stock_data(file_path):
 # merge stocks data 
 def merge_stocks(data_directory):
     stock_files = {
-        'AAPL': 'AAPL_historical_data.csv',
-        'AMZN': 'AMZN_historical_data.csv',
-        'GOOGL': 'GOOG_historical_data.csv',
-        'META': 'META_historical_data.csv',
-        'MSFT': 'MSFT_historical_data.csv',
-        'NVDA': 'NVDA_historical_data.csv',
-        'TSLA': 'TSLA_historical_data.csv'
+        'AAPL': 'AAPL.csv',
+        'AMZN': 'AMZN.csv',
+        'GOOGL': 'GOOG.csv',
+        'META': 'META.csv',
+        'MSFT': 'MSFT.csv',
+        'NVDA': 'NVDA.csv',
+        'TSLA': 'TSLA.csv'
     }
     
     stock_data = pd.DataFrame()
